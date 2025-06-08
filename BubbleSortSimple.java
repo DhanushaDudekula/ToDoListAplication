@@ -1,7 +1,7 @@
 package dhanu;
 public class BubbleSortSimple {
     public static void main(String[] args) {
-        String[] names = { "Charlie", "Alice", "Eva", "Bob", "David" };
+        String[] names = { "Chandhu", "Aarifa", "Evana", "bhargavi", "Dev" };
 
         // Bubble sort
         for (int i = 0; i < names.length - 1; i++) {
