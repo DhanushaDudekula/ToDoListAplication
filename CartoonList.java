@@ -8,18 +8,18 @@ public class CartoonList {
         ArrayList<String> cartoonCharacters = new ArrayList<>();
 
         // Step 2: Add 5 names
-        cartoonCharacters.add("Mickey");
-        cartoonCharacters.add("Tom");
-        cartoonCharacters.add("Jerry");
-        cartoonCharacters.add("SpongeBob");
-        cartoonCharacters.add("Scooby");
+        cartoonCharacters.add("Mohan");
+        cartoonCharacters.add("Tommy");
+        cartoonCharacters.add("jessi");
+        cartoonCharacters.add("Sana");
+        cartoonCharacters.add("Sam");
 
         // Step 3: Remove 1 name
-        cartoonCharacters.remove("Tom");
+        cartoonCharacters.remove("Tommy");
 
         // Step 4: Replace one with a new one
-        // Let's replace "Jerry" with "Doraemon"
-        int index = cartoonCharacters.indexOf("Jerry");
+        // Let's replace "Jessy" with "Doraemon"
+        int index = cartoonCharacters.indexOf("Jessy");
         if (index != -1) {
             cartoonCharacters.set(index, "Doraemon");
         }
