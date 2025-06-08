@@ -8,11 +8,11 @@ public class IceCreamQueue {
         Queue<String> iceCreamQueue = new LinkedList<>();
 
         // Step 2: Add 5 kids to the queue
-        iceCreamQueue.add("Alice");
-        iceCreamQueue.add("Bob");
-        iceCreamQueue.add("Charlie");
-        iceCreamQueue.add("Daisy");
-        iceCreamQueue.add("Ethan");
+        iceCreamQueue.add("Ameen");
+        iceCreamQueue.add("Banu");
+        iceCreamQueue.add("Chari");
+        iceCreamQueue.add("Danya");
+        iceCreamQueue.add("Emmam");
 
         // Step 3: Show the first kid in the queue
         System.out.println("First kid in queue: " + iceCreamQueue.peek());
