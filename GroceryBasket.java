@@ -7,11 +7,11 @@ public class GroceryBasket {
         HashMap<String, Integer> basket = new HashMap<>();
 
         // Step 2: Add 5 items
-        basket.put("Apples", 40);
-        basket.put("Milk", 50);
-        basket.put("Bread", 30);
-        basket.put("Eggs", 60);
-        basket.put("Rice", 100);
+        basket.put("banana", 48);
+        basket.put("jam", 52);
+        basket.put("Bread", 13);
+        basket.put("chathi", 67);
+        basket.put("Rice", 10);
 
         // Step 3: Print total cost of all items
         int totalCost = 0;
@@ -21,7 +21,7 @@ public class GroceryBasket {
         System.out.println("Total cost of all items: ₹" + totalCost);
 
         // Step 4: Update the price of any item (e.g., Milk)
-        basket.put("Milk", 55); // Updated price
+        basket.put("jam", 55); // Updated price
 
         // Step 5: Remove one item (e.g., Bread)
         basket.remove("Bread");
