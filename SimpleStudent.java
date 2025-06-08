@@ -12,11 +12,11 @@ class Student {
 public class SimpleStudent {
     public static void main(String[] args) {
         Student[] students = {
-            new Student("Alice", 85),
-            new Student("Bob", 75),
-            new Student("Charlie", 90),
-            new Student("David", 65),
-            new Student("Eva", 95)
+            new Student("Aari", 8),
+            new Student("Balu", 17),
+            new Student("chandu", 19),
+            new Student("Daddy", 16),
+            new Student("Evanla", 15)
         };
 
         System.out.println("Students with grade > 80:");
